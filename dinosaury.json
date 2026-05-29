@@ -1,0 +1,142 @@
+{
+  "tyrannosaurus": {
+    "meno": "Tyrannosaurus Rex (T-Rex)",
+    "kde_zil": "Severná Amerika (pred 66 miliónmi rokov)",
+    "info": "Kráľ dinosaurov s najsilnejším stiskom čeľustí v histórii. Mal zuby veľké ako banány, ale ruky také krátke, že si nimi nedočiahol ani do nosa.",
+    "vtip": "Čo urobí nahnevaný T-Rex? Nič, lebo si nedokáže ani zatlačiť ruku v päsť!",
+    "zvuk": "dravec"
+  },
+  "triceratops": {
+    "meno": "Triceratops",
+    "kde_zil": "Severná Amerika (pred 68 miliónmi rokov)",
+    "info": "Mal na hlave tri obrie rohy a obrovský kostený golier. Bol to obrovský vegetarián, niečo ako praveký obrnený nosorožec.",
+    "vtip": "Prečo mal Triceratops tri rohy? Lebo štyri by už boli podozrivé a s dvoma by ho kamoši vysmiali, že je len obyčajná krava!",
+    "zvuk": "bylinozravec"
+  },
+  "velociraptor": {
+    "meno": "Velociraptor",
+    "kde_zil": "Ázia / Mongolsko (pred 75 miliónmi rokov)",
+    "info": "V skutočnosti bol veľký asi ako morka a mal perie. Bol však neuveriteľne rýchly, prefíkaný a lovil v svorkách.",
+    "vtip": "Vieš, prečo Velociraptor nikdy nehral na schovávačku? Lebo ho vždy prezradilo šuchotanie peria, kým sa smial!",
+    "zvuk": "raptor"
+  },
+  "stegosaurus": {
+    "meno": "Stegosaurus",
+    "kde_zil": "Severná Amerika a Európa (pred 150 miliónmi rokov)",
+    "info": "Na chrbte mal obrovské kostené platne a na chvoste štyri ostré ostne. Mal však mozog veľký len ako vlašský orech.",
+    "vtip": "Čo povie Stegosaurus, keď narazí do stromu? Nič, premýšľa o tom až o tri dni neskôr!",
+    "zvuk": "bylinozravec"
+  },
+  "brontosaurus": {
+    "meno": "Brontosaurus / Apatosaurus",
+    "kde_zil": "Severná Amerika (pred 152 miliónmi rokov)",
+    "info": "Jeden z najväčších tvorov, aké kedy kráčali po Zemi. Vážil ako 4 obrie slony a mal taký dlhý krk, že ním mohol nazerať do okien na štvrtom poschodí.",
+    "vtip": "Prečo mali brontosaury také dlhé krky? Aby im hlava nespadla na zem, keď zaspali!",
+    "zvuk": "bylinozravec"
+  },
+  "apatosauro": {
+    "meno": "Apatosaurus",
+    "kde_zil": "Severná Amerika (pred 152 miliónmi rokov)",
+    "info": "Blízky príbuzný Brontosaura. Svojím obrovským chvostom dokázal švihnúť tak rýchlo, že zvuk prekonal bariéru zvuku ako výstrel z dela.",
+    "vtip": "Aký je najlepší spôsob, ako vystrašiť Apatosaura? Postaviť sa zaňho a nečakane prasknúť balónik!",
+    "zvuk": "bylinozravec"
+  },
+  "brachiosaurus": {
+    "meno": "Brachiosaurus",
+    "kde_zil": "Severná Amerika a Afrika (pred 154 miliónmi rokov)",
+    "info": "Na rozdiel od iných dlhokrkých obrov mal predné nohy dlhšie ako zadné, takže pripomínal gigantickú pravekú žirafu a spásal koruny najvyšších stromov.",
+    "vtip": "Čo povie Brachiosaurus, keď prehltne lístok? Že kým mu dôjde do žalúdka, tak bude aj po obede!",
+    "zvuk": "bylinozravec"
+  },
+  "diplodocus": {
+    "meno": "Diplodocus",
+    "kde_zil": "Severná Amerika (pred 154 miliónmi rokov)",
+    "info": "Dinosaurus s najdlhším chvostom, ktorý meral až 14 metrov a slúžil ako dokonalý bič proti dravcom. Sám bol pritom pokojný bylinožravec.",
+    "vtip": "Prečo mal Diplodocus taký dlhý chvost? Aby mohol na konci radu na obed postrkovať ostatných, nech sa pohnú!",
+    "zvuk": "bylinozravec"
+  },
+  "spinosaurus": {
+    "meno": "Spinosaurus",
+    "kde_zil": "Severná Afrika (pred 95 miliónmi rokov)",
+    "info": "Bol dokonca ešte väčší ako T-Rex! Na chrbte mal obrovskú koženú plachtu v tvare tŕňa a väčšinu času trávil vo vode lovením obrovských rýb.",
+    "vtip": "Prečo Spinosaurus nikdy nechodil do aquaparku? Lebo všetci hneď utiekli, keď zbadali jeho chrbtovú plutvu!",
+    "zvuk": "dravec"
+  },
+  "ankylosaurus": {
+    "meno": "Ankylosaurus",
+    "kde_zil": "Severná Amerika (pred 66 miliónmi rokov)",
+    "info": "Žijúci praveký tank. Celé telo mal pokryté kostenými platňami a na konci chvosta mal obrovskú ťažkú guľu, ktorou dokázal dolamať nohy aj T-Rexovi.",
+    "vtip": "Vieš, čo je najlepšia obrana podľa Ankylosaura? Otočiť sa chrbtom a tváriť sa, že si veľký balvan!",
+    "zvuk": "bylinozravec"
+  },
+  "pterodactyl": {
+    "meno": "Pterodactyl",
+    "kde_zil": "Európa a Afrika (pred 150 miliónmi rokov)",
+    "info": "Hoci to bol lietajúci jašter a nie čistokrvný dinosaurus, patril medzi kráľov oblohy. Rozpätie krídel mal väčšie ako malé lietadlo.",
+    "vtip": "Prečo Pterodaktyla nepočuť, keď ide na záchod? Lebo to 'P' na začiatku jeho mena je tiché!",
+    "zvuk": "lietajuci"
+  },
+  "pteranodon": {
+    "meno": "Pteranodon",
+    "kde_zil": "Severná Amerika (pred 85 miliónmi rokov)",
+    "info": "Lietajúci obor s obrovským hrebeňom na hlave, ktorý mu slúžil ako kormidlo pri lete nad oceánom, kde lovil ryby.",
+    "vtip": "Čo urobí Pteranodon, keď uvidí búrku? Zapne si autopilot a letí nad mraky!",
+    "zvuk": "lietajuci"
+  },
+  "mosasaurus": {
+    "meno": "Mosasaurus",
+    "kde_zil": "Svetové oceány (pred 70 miliónmi rokov)",
+    "info": "Obrovské morské monštrum, ktoré vládlo pravekým oceánom. Vyzeral ako gigantický krokodíl s plutvami a dokázal prehltnúť celého žraloka na jedno sústo.",
+    "vtip": "Čo povie Mosasaurus, keď stretne potápača? Mňam, konečne niečo v konzerve!",
+    "zvuk": "vodny"
+  },
+  "parasaurolophus": {
+    "meno": "Parasaurolophus",
+    "kde_zil": "Severná Amerika (pred 76 miliónmi rokov)",
+    "info": "Dinosaurus s dlhou dutou trúbou na hlave. Touto trúbou dokázal vydávať hlboké zvuky ako lodná siréna, ktorými komunikoval so svojím stádom na kilometre ďaleko.",
+    "vtip": "Prečo Parasaurolophus nikdy nepotreboval mobil? Lebo stačilo, keď zatrúbil na svoju hlavu, a počulo ho celé mesto!",
+    "zvuk": "bylinozravec"
+  },
+  "allosaurus": {
+    "meno": "Allosaurus",
+    "kde_zil": "Severná Amerika a Európa (pred 155 miliónmi rokov)",
+    "info": "Hlavný predátor jurského obdobia. Bol o niečo menší ako T-Rex, ale mal oveľa dlhšie a silnejšie predné ruky s ostrými pazúrmi, ktorými držal korisť.",
+    "vtip": "Prečo Allosaurus nerád súperil s T-Rexom v pretláčaní rukou? Lebo by to bolo nefér, Allosaurus mal ruky a T-Rex len ozdobu!",
+    "zvuk": "dravec"
+  },
+  "carnotaurus": {
+    "meno": "Carnotaurus",
+    "kde_zil": "Južná Amerika (pred 72 miliónmi rokov)",
+    "info": "Jeho meno znamená 'mäsožravý býk', pretože mal nad očami dva ostré kostené rohy. Mal najkratšie ruky zo všetkých dravcov – vyzerali len ako malé krídelká.",
+    "vtip": "Čo povie Carnotaurus, keď chce niekomu zamávať? Pozri sa veľmi pozorne, lebo o sekundu ti moje ruky zmiznú z dohľadu!",
+    "zvuk": "dravec"
+  },
+  "iguanodon": {
+    "meno": "Iguanodon",
+    "kde_zil": "Európa a Ázia (pred 125 miliónmi rokov)",
+    "info": "Veľký bystrý bylinožravec, ktorý mal na palcoch predných nôh obrovské ostré dýky na obranu proti predátorom. Dokázal chodiť po dvoch aj po štyroch nohách.",
+    "vtip": "Čo urobí Iguanodon, keď mu dravec povie kradni? Ukáže mu palec hore a povie: Nie, ja ťa radšej bodnem!",
+    "zvuk": "bylinozravec"
+  },
+  "dilophosaurus": {
+    "meno": "Dilophosaurus",
+    "kde_zil": "Severná Amerika (pred 193 miliónmi rokov)",
+    "info": "Mal na hlave dva krásne polmesiacovité hrebene. Vo filmoch ho ukazujú, ako pľuje jed a otvára golier, no vedci zistili, že v skutočnosti bol oveľa väčší a nič také nerobil.",
+    "vtip": "Prečo je Dilophosaurus nahnevaný na režisérov Jurského parku? Lebo z neho urobili jedovatú jaštericu veľkú ako pes, pričom bol veľký ako auto!",
+    "zvuk": "dravec"
+  },
+  "pachycephalosaurus": {
+    "meno": "Pachycephalosaurus",
+    "kde_zil": "Severná Amerika (pred 66 miliónmi rokov)",
+    "info": "Dinosaurus s extrémne hrubou lebkou – na vrchu hlavy mal až 25 centimetrov hrubú kostenú helmu. Používal ju na narážanie do súperov alebo na obranu.",
+    "vtip": "Prečo Pachycephalosaurus nikdy nenosil šiltovku? Lebo žiadna gumička nedokázala udržať čiapku na takej tvrdej a oblej hlave!",
+    "zvuk": "bylinozravec"
+  },
+  "archaeopteryx": {
+    "meno": "Archaeopteryx",
+    "kde_zil": "Európa / Nemecko (pred 150 miliónmi rokov)",
+    "info": "Slávny 'prvovták'. Predstavuje dokonalý most medzi dinosaurami a vtákmi – mal perie a krídla, ale zároveň dinosaurie zuby, dlhý chvost a pazúry.",
+    "vtip": "Čo povie Archaeopteryx, keď sa ráno zobudí? Som jašterica, čo lieta, alebo vták, čo nevie spievať? Ach, táto kríza identity!",
+    "zvuk": "lietajuci"
+  }
+}
