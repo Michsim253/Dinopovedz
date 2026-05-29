@@ -78,20 +78,35 @@ if nahraty_subor and client and data_dino:
                 contents=[obrazok, prompt]
             )
             
-            # Vyčistenie odpovede od prípadných medzier
-            hladane_meno = odpoved_ai.text.strip().lower()
+           # Vyčistenie odpovede od bodiek, medzier a nečistôt
+            hladane_meno = odpoved_ai.text.strip().lower().replace(".", "").replace("-", "")
+            
+            # INTELIGENTNÝ PREKLADAČ: Ak AI odpovie skratkou alebo inak, preložíme to na tvoj kľúč
+            prekladac_men = {
+                "t-rex": "tyrannosaurus", "trex": "tyrannosaurus", "tyranosaurus": "tyrannosaurus",
+                "pterodaktyl": "pterodactyl", "pteranodón": "pteranodon", "mosasaurus": "mosasaurus"
+            }
+            if hladane_meno in prekladac_men:
+                hladane_meno = prekladac_men[hladane_meno]
+            
+            # Skontrolujeme, či sa slovo od AI aspoň NACHÁDZA v nejakom kľúči
+            najdeny_kluc = None
+            for kluc in data_dino.keys():
+                if kluc in hladane_meno or hladane_meno in kluc:
+                    najdeny_kluc = kluc
+                    break
             
             # Vyhľadanie v JSON dátach na základe rozhodnutia AI
-            if hladane_meno in data_dino:
-                dino = data_dino[hladane_meno]
+            if najdeny_kluc:
+                dino = data_dino[najdeny_kluc]
                 
-                str.success(f"🎯 AI Skener určil, že na fotke je: **{dino['meno']}**")
+                str.success(f"🎯 AI Skener úspešne určil tvora: **{dino['meno']}**")
                 str.write(f"🌍 **Kde a kedy žil:** {dino['kde_zil']}")
                 str.write(f"📖 **Predstavenie:** {dino['info']}")
                 
                 str.markdown("---")
                 str.markdown("### 💡 Vedecká pikoška, o ktorej málokto vie:")
-                pikoska_text = pikosky.get(hladane_meno, random.choice(vseobecne_pikosky))
+                pikoska_text = pikosky.get(najdeny_kluc, random.choice(vseobecne_pikosky))
                 str.info(pikoska_text)
                 str.markdown("---")
                 
@@ -101,11 +116,6 @@ if nahraty_subor and client and data_dino:
                 zvuk_kategoria = dino.get("zvuk", "bylinozravec")
                 str.code(f"🔊 Zvuk tvora: {ikony_zvukov.get(zvuk_kategoria, '🦕 ...ticho...')}")
             else:
-                str.error(f"🤖 AI vrátila kľúč '{hladane_meno}', ktorý sa nenachádza v tvojej 100-dino databáze.")
-                
-        except Exception as e:
-            str.error(f"Chyba pri AI skenovaní: {e}")
-
-# Pätička
+                str.error(f"❌ AI síce na fotke rozpoznala slovo '{odpoved_ai.text.strip()}', ale to sa žiaľ nezhoduje so žiadnym zo 100 dinosaurov v tvojom JSON súbore. Skús odfotiť iného známeho dinosaura!")
 str.markdown("---")
 str.caption(f"Skenujeme s podporou databázy {len(data_dino)} dinosaurov.")
