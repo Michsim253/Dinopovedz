@@ -1,70 +1,56 @@
 import streamlit as st
-import requests
 from PIL import Image
-import io
+from transformers import pipeline
 
 # 1. Nastavenie vzhľadu stránky
 st.set_page_config(page_title="DinoPátrač", page_icon="🦕", layout="centered")
 
-# 2. Načítanie Hugging Face tokenu zo Streamlit trezoru
-if "HF_TOKEN" in st.secrets:
-    HF_TOKEN = st.secrets["HF_TOKEN"]
-else:
-    st.error("⚠️ V trezore Secrets chýba kľúč s názvom HF_TOKEN. Skontroluj nastavenia v Streamlite.")
-    HF_TOKEN = None
+# 2. Načítanie lokálneho AI modelu do pamäte aplikácie (zabezpečíme, aby sa nenačítaval dokola)
+@st.cache_resource
+def nacitaj_model():
+    # Použijeme ultra-ľahký a rýchly model MobileNet, ktorý nepotrebuje silný počítač
+    return pipeline("image-classification", model="google/vit-base-patch16-224")
 
-# API adresa pre vizuálny model - v2 verzia kvôli stabilite pripojenia
-API_URL = "https://api-inference.huggingface.co/v1/models/Salesforce/blip-image-captioning-large"
-
-# Definícia hlavičiek (headers) - tu bola chyba, teraz je to opravené!
-if HF_TOKEN:
-    headers = {"Authorization": f"Bearer {HF_TOKEN}"}
-else:
-    headers = {}
+with st.spinner("🦕 DinoPátrač prebúdza lokálnu umelú inteligenciu... (Prvé spustenie môže trvať minútku)"):
+    try:
+        classifier = nacitaj_model()
+        model_ready = True
+    except Exception as e:
+        st.error(f"Nepodarilo sa naštartovať lokálny model: {str(e)}")
+        model_ready = False
 
 # 3. Samotný dizajn aplikácie
-st.title("🦕 DinoPátrač")
-st.write("Vyfoť dinosaura alebo nahraj jeho obrázok a umelá inteligencia ti prezradí, kto to je!")
+st.title("🦕 DinoPátrač (Lokálna verzia)")
+st.write("Táto verzia beží priamo v aplikácii a nepotrebuje žiadne API kľúče ani internetové pripojenie!")
 
 volba = st.radio("Vyber si spôsob:", ["📸 Použiť foťák", "📁 Nahrať fotku z galérie"])
 
 foto_subor = None
 if volba == "📸 Použiť foťák":
-    foto_subor = st.camera_input("Zameraj dinosaura a stlač spúšť")
+    foto_subor = st.camera_input("Zameraj objekt a stlač spúšť")
 else:
-    foto_subor = st.file_uploader("Vyber obrázok dinosaura", type=["jpg", "jpeg", "png"])
+    foto_subor = st.file_uploader("Vyber obrázok", type=["jpg", "jpeg", "png"])
 
-# 4. Spracovanie fotografie po kliknutí na tlačidlo
-if foto_subor is not None and HF_TOKEN is not None:
+# 4. Lokálna analýza fotografie
+if foto_subor is not None and model_ready:
     image = Image.open(foto_subor)
     st.image(image, caption="Tvoj úlovok", use_container_width=True)
     
-    if st.button("🔍 Preskúmať dinosaura"):
-        with st.spinner("DinoPátrač analyzuje tvoj obrázok cez Hugging Face..."):
+    if st.button("🔍 Preskúmať lokálne"):
+        with st.spinner("Umelá inteligencia analyzuje pixely obrázka..."):
             try:
-                # Prevedieme obrázok do bytov pre odoslanie
-                img_byte_arr = io.BytesIO()
-                image.save(img_byte_arr, format='JPEG')
-                img_bytes = img_byte_arr.getvalue()
+                # Spustenie lokálnej klasifikácie
+                vysledky = classifier(image)
                 
-                # Odoslanie fotky na Hugging Face server
-                response = requests.post(API_URL, headers=headers, data=img_bytes)
+                st.balloons()
+                st.success("Analýza úspešne dokončená!")
+                st.markdown("### 🦖 Čo na obrázku vidí lokálna AI:")
                 
-                if response.status_code == 200:
-                    vysledok = response.json()
-                    # Ošetrenie výstupu z v2 API rozhrania
-                    if isinstance(vysledok, list) and len(vysledok) > 0:
-                        popis_en = vysledok[0].get('generated_text', 'Nepodarilo sa vygenerovať popis.')
-                    else:
-                        popis_en = str(vysledok)
-                    
-                    st.balloons()
-                    st.success("Analýza úspešne dokončená!")
-                    st.markdown("### 🦖 Výsledok pátrania:")
-                    st.write(f"**Umelá inteligencia na obrázku vidí:** {popis_en}")
-                    st.info("💡 Tip: Ak je na fotke známy dinosaurus (napr. T-Rex), model vypíše priamo jeho názov!")
-                else:
-                    st.error(f"Hugging Face hlási chybu ({response.status_code}): {response.text}")
+                # Vypíšeme top 3 najpravdepodobnejšie veci, ktoré model našiel
+                for i, res in enumerate(vysledky[:3]):
+                    label = res['label']
+                    pravdepodobnost = round(res['score'] * 100, 1)
+                    st.write(f"{i+1}. **{label}** (Istota: {pravdepodobnost}%)")
                     
             except Exception as e:
-                st.error(f"Vyskytla sa chyba: {str(e)}")
+                st.error(f"Vyskytla sa chyba pri analýze: {str(e)}")
