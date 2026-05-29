@@ -12,10 +12,8 @@ if "HF_TOKEN" in st.secrets:
 else:
     st.error("⚠️ V trezore Secrets chýba kľúč s názvom HF_TOKEN. Skontroluj nastavenia v Streamlite.")
     HF_TOKEN = None
-
-# API adresa pre vizuálny model od Salesforce
-API_URL = "https://api-inference.huggingface.co/models/Salesforce/blip-image-captioning-large"
-headers = {"Authorization": f"Bearer {HF_TOKEN}"} if HF_TOKEN else {}
+# API adresa pre vizuálny model - skúsime v2 verziu kvôli výpadku DNS na Streamlite
+API_URL = "https://api-inference.huggingface.co/v1/models/Salesforce/blip-image-captioning-large"
 
 # 3. Samotný dizajn aplikácie
 st.title("🦕 DinoPátrač")
