@@ -5,15 +5,16 @@ from PIL import Image
 # 1. Nastavenie vzhľadu stránky
 st.set_page_config(page_title="DinoPátrač", page_icon="🦕", layout="centered")
 
-# 2. Tu vlož svoj API kľúč (skontroluj, či začína na AIzaSy...)
-AQ.Ab8RN6KzGt-uEaNmZzohp7rJV6FO7dd5w1WvCf75_fVjpVa8IA
+# 1. Nastavenie vzhľadu stránky
+st.set_page_config(page_title="DinoPátrač", page_icon="🦕", layout="centered")
 
-# 3. Bezpečné nastavenie umelej inteligencie
+# 2. Bezpečné načítanie API kľúča zo Streamlit trezoru (Secrets)
 try:
+    API_KEY = st.secrets["GEMINI_API_KEY"]
     genai.configure(api_key=API_KEY)
     model = genai.GenerativeModel('gemini-1.5-flash')
 except Exception as e:
-    pass
+    st.error("Nepodarilo sa načítať API kľúč z trezoru.")
 
 # 4. Samotný dizajn aplikácie
 st.title("🦕 DinoPátrač")
