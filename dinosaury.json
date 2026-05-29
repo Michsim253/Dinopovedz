@@ -28,7 +28,7 @@
     "zvuk": "bylinozravec"
   },
   "brontosaurus": {
-    "meno": "Brontosaurus / Apatosaurus",
+    "meno": "Brontosaurus",
     "kde_zil": "Severná Amerika (pred 152 miliónmi rokov)",
     "info": "Jeden z najväčších tvorov, aké kedy kráčali po Zemi. Vážil ako 4 obrie slony a mal taký dlhý krk, že ním mohol nazerať do okien na štvrtom poschodí.",
     "vtip": "Prečo mali brontosaury také dlhé krky? Aby im hlava nespadla na zem, keď zaspali!",
@@ -138,5 +138,13 @@
     "info": "Slávny 'prvovták'. Predstavuje dokonalý most medzi dinosaurami a vtákmi – mal perie a krídla, ale zároveň dinosaurie zuby, dlhý chvost a pazúry.",
     "vtip": "Čo povie Archaeopteryx, keď sa ráno zobudí? Som jašterica, čo lieta, alebo vták, čo nevie spievať? Ach, táto kríza identity!",
     "zvuk": "lietajuci"
-  }
-}
+  },
+  "giganotosaurus": {
+    "meno": "Giganotosaurus",
+    "kde_zil": "Južná Amerika (pred 97 miliónmi rokov)",
+    "info": "Obrovské monštrum, ktoré bolo telesne dokonca dlhšie ako samotný T-Rex. Žil v Južnej Amerike a lovil gigantické bylinožravce v organizovaných skupinách.",
+    "vtip": "Čo povie Giganotosaurus T-Rexovi? Moje meno je dlhšie, moje telo je dlhšie, tak prečo o tebe točia všetky filmy?!",
+    "zvuk": "dravec"
+  },
+  "baryonyx": {
+    "meno": "Bary
