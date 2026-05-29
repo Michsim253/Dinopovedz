@@ -6,7 +6,7 @@ from PIL import Image
 st.set_page_config(page_title="DinoPátrač", page_icon="🦕", layout="centered")
 
 # 2. Tu vlož svoj API kľúč (skontroluj, či začína na AIzaSy...)
-API_KEY = "AQ.Ab8RN6L3-8KocWOaO9faph_r-hJbPId7xWX3VTZyjuYyF6AQzA"
+AQ.Ab8RN6KzGt-uEaNmZzohp7rJV6FO7dd5w1WvCf75_fVjpVa8IA
 
 # 3. Bezpečné nastavenie umelej inteligencie
 try:
