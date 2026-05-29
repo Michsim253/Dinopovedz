@@ -1,22 +1,24 @@
 import streamlit as st
 import google.generativeai as genai
 from PIL import Image
+import os
 
 # 1. Nastavenie vzhľadu stránky
 st.set_page_config(page_title="DinoPátrač", page_icon="🦕", layout="centered")
 
-# 1. Nastavenie vzhľadu stránky
-st.set_page_config(page_title="DinoPátrač", page_icon="🦕", layout="centered")
-
-# 2. Bezpečné načítanie API kľúča zo Streamlit trezoru (Secrets)
+# 2. Načítanie kľúča zo Streamlit trezoru a nastavenie do systému
 try:
     API_KEY = st.secrets["GEMINI_API_KEY"]
+    # Tento riadok povie počítaču, kde presne má kľúč hľadať
+    os.environ["GEMINI_API_KEY"] = API_KEY
     genai.configure(api_key=API_KEY)
+    
+    # Použijeme najstabilnejší model, ktorý podporuje nové kľúče
     model = genai.GenerativeModel('gemini-1.5-flash')
 except Exception as e:
-    st.error("Nepodarilo sa načítať API kľúč z trezoru.")
+    st.error("Chyba pri načítaní trezoru.")
 
-# 4. Samotný dizajn aplikácie
+# 3. Samotný dizajn aplikácie
 st.title("🦕 DinoPátrač")
 st.write("Vyfoť dinosaura alebo nahraj jeho obrázok a umelá inteligencia ti prezradí, kto to je!")
 
@@ -29,9 +31,8 @@ if volba == "📸 Použiť foťák":
 else:
     foto_subor = st.file_uploader("Vyber obrázok dinosaura", type=["jpg", "jpeg", "png"])
 
-# 5. Spracovanie fotografie po kliknutí na tlačidlo
+# 4. Spracovanie fotografie po kliknutí na tlačidlo
 if foto_subor is not None:
-    # Zobrazenie nahranej fotky
     image = Image.open(foto_subor)
     st.image(image, caption="Tvoj úlovok", use_container_width=True)
     
@@ -54,4 +55,5 @@ if foto_subor is not None:
                 st.markdown(f"### 🦖 Výsledok pátrania:\n{odpoved.text}")
                 
             except Exception as e:
-                st.error("Ojoj, niečo sa nepodarilo. Skontroluj, či je tvoj API kľúč správny a platný.")
+                # Ak to zlyhá, vypíšeme presnú chybu z Google serveru, aby sme vedeli, čo presne sa deje
+                st.error(f"Google hlási chybu: {str(e)}")
