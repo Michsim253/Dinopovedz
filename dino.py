@@ -12,8 +12,15 @@ if "HF_TOKEN" in st.secrets:
 else:
     st.error("⚠️ V trezore Secrets chýba kľúč s názvom HF_TOKEN. Skontroluj nastavenia v Streamlite.")
     HF_TOKEN = None
-# API adresa pre vizuálny model - skúsime v2 verziu kvôli výpadku DNS na Streamlite
+
+# API adresa pre vizuálny model - v2 verzia kvôli stabilite pripojenia
 API_URL = "https://api-inference.huggingface.co/v1/models/Salesforce/blip-image-captioning-large"
+
+# Definícia hlavičiek (headers) - tu bola chyba, teraz je to opravené!
+if HF_TOKEN:
+    headers = {"Authorization": f"Bearer {HF_TOKEN}"}
+else:
+    headers = {}
 
 # 3. Samotný dizajn aplikácie
 st.title("🦕 DinoPátrač")
@@ -45,7 +52,11 @@ if foto_subor is not None and HF_TOKEN is not None:
                 
                 if response.status_code == 200:
                     vysledok = response.json()
-                    popis_en = vysledok[0]['generated_text']
+                    # Ošetrenie výstupu z v2 API rozhrania
+                    if isinstance(vysledok, list) and len(vysledok) > 0:
+                        popis_en = vysledok[0].get('generated_text', 'Nepodarilo sa vygenerovať popis.')
+                    else:
+                        popis_en = str(vysledok)
                     
                     st.balloons()
                     st.success("Analýza úspešne dokončená!")
