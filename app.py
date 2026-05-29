@@ -80,7 +80,7 @@ if nahraty_subor and client and data_dino:
             
            # Vyčistenie odpovede od bodiek, medzier a nečistôt
             hladane_meno = odpoved_ai.text.strip().lower().replace(".", "").replace("-", "")
-            
+            str.warning(f"DEBUG: AI si myslí, že na fotke je: '{hladane_meno}'")
             # INTELIGENTNÝ PREKLADAČ: Ak AI odpovie skratkou alebo inak, preložíme to na tvoj kľúč
             prekladac_men = {
                 "t-rex": "tyrannosaurus", "trex": "tyrannosaurus", "tyranosaurus": "tyrannosaurus",
