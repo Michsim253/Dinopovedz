@@ -20,46 +20,46 @@ with st.spinner("🦕 DinoPátrač prebúdza lokálnu umelú inteligenciu..."):
         st.error(f"Nepodarilo sa naštartovať model: {str(e)}")
         model_ready = False
 
-# 3. Rozšírená encyklopédia dinosaurov s odkazmi na ich zvuky (MP3)
+# 3. Databáza dinosaurov s textovým popisom ich revu
 DINO_DATABAZA = {
     "triceratops": {
         "meno": "Triceratops",
         "kde_zil": "Severná Amerika (pred 68 miliónmi rokov)",
         "info": "Mal na hlave tri obrie rohy a obrovský kostený golier. Bol to obrovský vegetarián, niečo ako praveký obrnený nosorožec.",
         "vtip": "Prečo mal Triceratops tri rohy? Lebo štyri by už boli podozrivé a s dvoma by ho kamoši vysmiali, že je len obyčajná krava!",
-        "zvuk": "https://www.soundjay.com/nature/sounds/creature-roar-1.mp3"  # Dupot a mrmlanie obra
+        "zvuk_text": "Dúúúm... pfffff... grrrr... úúúúúú!"  # Hlboké funenie a mrmlanie obra
     },
     "tyrannosaurus": {
         "meno": "Tyrannosaurus Rex (T-Rex)",
         "kde_zil": "Severná Amerika (pred 66 miliónmi rokov)",
         "info": "Kráľ dinosaurov s najsilnejším stiskom čelustí v histórii. Mal zuby veľké ako banány, ale ruky také krátke, že si nimi nedočiahol ani do nosa.",
         "vtip": "Čo urobí nahnevaný T-Rex? Nič, lebo si nedokáže ani zatlačiť ruku v päsť!",
-        "zvuk": "https://www.soundjay.com/nature/sounds/monstrous-creature-roar-1.mp3"  # Hrozivý rev kráľa
+        "zvuk_text": "RROOOAAARRRGH... GRRRR... UUUUAAARGH!"  # Strašidelný rev kráľa
     },
     "velociraptor": {
         "meno": "Velociraptor",
         "kde_zil": "Ázia / Mongolsko (pred 75 miliónmi rokov)",
         "info": "V skutočnosti bol veľký asi ako morka a mal perie, nie ako tie obrie jaštery vo filmoch. Bol však neuveriteľne rýchly a prefíkaný lovec.",
         "vtip": "Vieš, prečo Velociraptor nikdy nehral na schovávačku? Lebo ho vždy prezradilo šuchotanie peria, kým sa smial!",
-        "zvuk": "https://www.soundjay.com/nature/sounds/creature-cry-1.mp3"  # Syčanie a škrekot dravca
+        "zvuk_text": "Ssssssss... kík-kík-kík... chhhhrrrrr!"  # Syčanie a prenikavý škrekot dravca
     },
     "stegosaurus": {
         "meno": "Stegosaurus",
         "kde_zil": "Severná Amerika a Európa (pred 150 miliónmi rokov)",
         "info": "Na chrbte mal obrovské kostené platne a na chvoste ostne. Mal však mozog veľký len ako vlašský orech. Nebol to zrovna najbystrejší dinosaurus v údolí.",
         "vtip": "Čo povie Stegosaurus, keď narazí do stromu? Nič, premýšľa o tom až o tri dni neskôr!",
-        "zvuk": "https://www.soundjay.com/nature/sounds/dinosaur-roar-1.mp3"  # Hlboké mrmlanie
+        "zvuk_text": "Brummmm... chŕŕŕ... mmmúúúúúúrh!"  # Hlboké pomalé mrmlanie
     }
 }
 
-# 4. Funkcia na prerozprávanie textu
-def hovoriaci_text(text_na_citanie):
+# 4. Funkcia na generovanie zvuku (príbeh alebo rev)
+def vygeneruj_audio(text, subor_nazov, jazyk='sk'):
     try:
-        tts = gTTS(text=text_na_citanie, lang='sk')
-        tts.save("dino_audio.mp3")
-        st.audio("dino_audio.mp3", format="audio/mp3")
+        tts = gTTS(text=text, lang=jazyk)
+        tts.save(subor_nazov)
+        st.audio(subor_nazov, format="audio/mp3")
     except Exception as e:
-        st.warning("Nepodarilo sa vygenerovať hlasový výstup.")
+        st.warning("Nepodarilo sa prehrať audio.")
 
 # 5. Samotný dizajn aplikácie
 st.title("🦕 DinoPátrač 3.0 🔊")
@@ -71,9 +71,10 @@ foto_subor = None
 if volba == "📸 Použiť foťák":
     foto_subor = st.camera_input("Zameraj objekt")
 else:
+    foto_subor = None
     foto_subor = st.file_uploader("Vyber obrázok", type=["jpg", "jpeg", "png"])
 
-# 6. Lokálna analýza a spúšťanie efektov
+# 6. Analýza
 if foto_subor is not None and model_ready:
     image = Image.open(foto_subor)
     st.image(image, caption="Tvoj úlovok", use_container_width=True)
@@ -95,28 +96,29 @@ if foto_subor is not None and model_ready:
                 if najdeny_dino:
                     st.success(f"Našli sme zhodu! Je to: **{najdeny_dino['meno']}**")
                     
-                    # 🔊 PRIDANÝ ZVUK DINOSAURA
+                    # 🔊 1. PREHRÁVAČ: Skutočný vygenerovaný rev dinosaura!
                     st.markdown("### 🔊 Vypočuj si rev dinosaura:")
-                    st.audio(najdeny_dino['zvuk'], format="audio/mp3")
+                    # Použijeme anglickú výslovnosť pre drsnejšie podtóny zvuku
+                    vygeneruj_audio(najdeny_dino['zvuk_text'], "rev.mp3", jazyk='en')
                     
-                    # Zobrazenie zaujímavých informácií
+                    # Zobrazenie informácií
                     st.markdown("---")
                     st.markdown(f"🗺️ **Kde žil:** {najdeny_dino['kde_zil']}")
                     st.markdown(f"ℹ️ **Zaujímavosť:** {najdeny_dino['info']}")
                     st.markdown(f"😂 **Vtip na záver:** *{najdeny_dino['vtip']}*")
                     
-                    # Hlasový príbeh
+                    # 🎙️ 2. PREHRÁVAČ: Hlasový príbeh v slovenčine
                     text_na_hlas = f"Našli sme zhodu! Je to {najdeny_dino['meno']}. Kde žil? {najdeny_dino['kde_zil']}. Zaujímavosť: {najdeny_dino['info']} A tu je vtip: {najdeny_dino['vtip']}"
                     st.markdown("---")
                     st.markdown("### 🎙️ Vypočuj si príbeh sprievodcu:")
-                    hovoriaci_text(text_na_hlas)
+                    vygeneruj_audio(text_na_hlas, "pribeh.mp3", jazyk='sk')
                     
                 else:
                     st.warning("Tohto tvora nemám v hlavnej dino-encyklopédii.")
                     st.write(f"Najbližší odhad modelu je: **{vysledky[0]['label']}**")
                     
                     text_na_hlas = f"Tohto tvora bohužiaľ nemám v encyklopédii. Môj odhad je {vysledky[0]['label']}"
-                    hovoriaci_text(text_na_hlas)
+                    vygeneruj_audio(text_na_hlas, "neznamy.mp3", jazyk='sk')
                     
             except Exception as e:
                 st.error(f"Vyskytla sa chyba pri analýze: {str(e)}")
