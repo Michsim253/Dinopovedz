@@ -34,11 +34,11 @@
     "vtip": "Prečo mali brontosaury také dlhé krky? Aby im hlava nespadla na zem, keď zaspali!",
     "zvuk": "bylinozravec"
   },
-  "apatosauro": {
+  "apatosaurus": {
     "meno": "Apatosaurus",
     "kde_zil": "Severná Amerika (pred 152 miliónmi rokov)",
-    "info": "Blízky prízubný Brontosaura. Svojím obrovským chvostom dokázal švihnúť tak rýchlo, že zvuk prekonal bariéru zvuku ako výstrel z dela.",
-    "vtip": "Aký je najlepší spôsob, ako vystrašiť Apatosaura? Postaviť sa zaňho a nečakane prasknúť balónik!",
+    "info": "Blízky príbuzný Brontosaura. Svojím obrovským chvostom dokázal švihnúť tak rýchlo, že zvuk prekonal bariéru zvuku ako výstrel z dela.",
+    "vtip": "Aký je najlepší spôsob, ako vystrašiť Apatosaura? Postaviť sa zaňho and nečakane prasknúť balónik!",
     "zvuk": "bylinozravec"
   },
   "brachiosaurus": {
@@ -51,28 +51,28 @@
   "diplodocus": {
     "meno": "Diplodocus",
     "kde_zil": "Severná Amerika (pred 154 miliónmi rokov)",
-    "info": "Dinosaurus s najdlhším chvostom, ktorý meral až 14 metrov a slúžil ako dokonalý bič proti dravcom. Sám bol pritom pokojný bylinožravec.",
+    "info": "Dinosaurus s najdlhším chvostom, ktorý meral až 14 metrov and slúžil ako dokonalý bič proti dravcom. Sám bol pritom pokojný bylinožravec.",
     "vtip": "Prečo mal Diplodocus taký dlhý chvost? Aby mohol na konci radu na obed postrkovať ostatných, nech sa pohnú!",
     "zvuk": "bylinozravec"
   },
   "spinosaurus": {
     "meno": "Spinosaurus",
     "kde_zil": "Severná Afrika (pred 95 miliónmi rokov)",
-    "info": "Bol dokonca ešte väčší ako T-Rex! Na chrbte mal obrovskú koženú plachtu v tvare tŕňa a väčšinu času trávil vo vode lovením obrovských rýb.",
+    "info": "Bol dokonca ešte väčší ako T-Rex! Na chrbte mal obrovskú koženú plachtu v tvare tŕňa and väčšinu času trávil vo vode lovením obrovských rýb.",
     "vtip": "Prečo Spinosaurus nikdy nechodil do aquaparku? Lebo všetci hneď utiekli, keď zbadali jeho chrbtovú plutvu!",
     "zvuk": "dravec"
   },
   "ankylosaurus": {
     "meno": "Ankylosaurus",
     "kde_zil": "Severná Amerika (pred 66 miliónmi rokov)",
-    "info": "Žijúci praveký tank. Celé telo mal pokryté kostenými platňami a na konci chvosta mal obrovskú ťažkú guľu, ktorou dokázal dolamať nohy aj T-Rexovi.",
-    "vtip": "Vieš, čo je najlepšia obrana podľa Ankylosaura? Otočiť sa chrbtom a tváriť sa, že si veľký balvan!",
+    "info": "Žijúci praveký tank. Celé telo mal pokryté kostenými platňami and na konci chvosta mal obrovskú ťažkú guľu, ktorou dokázal dolamať nohy aj T-Rexovi.",
+    "vtip": "Vieš, čo je najlepšia obrana podľa Ankylosaura? Otočiť sa chrbtom and tváriť sa, že si veľký balvan!",
     "zvuk": "bylinozravec"
   },
   "pterodactyl": {
     "meno": "Pterodactyl",
     "kde_zil": "Európa a Afrika (pred 150 miliónmi rokov)",
-    "info": "Hoci to bol lietajúci jašter a nie čistokrvný dinosaurus, patril medzi kráľov oblohy. Rozpätie krídel mal väčšie ako malé lietadlo.",
+    "info": "Hoci to bol lietajúci jašter and nie čistokrvný dinosaurus, patril medzi kráľov oblohy. Rozpätie krídel mal väčšie ako malé lietadlo.",
     "vtip": "Prečo Pterodaktyla nepočuť, keď ide na záchod? Lebo to 'P' na začiatku jeho mena je tiché!",
     "zvuk": "lietajuci"
   },
@@ -80,13 +80,13 @@
     "meno": "Pteranodon",
     "kde_zil": "Severná Amerika (pred 85 miliónmi rokov)",
     "info": "Lietajúci obor s obrovským hrebeňom na hlave, ktorý mu slúžil ako kormidlo pri lete nad oceánom, kde lovil ryby.",
-    "vtip": "Čo urobí Pteranodon, keď uvidí búrku? Zapne si autopilot a letí nad mraky!",
+    "vtip": "Čo urobí Pteranodon, keď uvidí búrku? Zapne si autopilot and letí nad mraky!",
     "zvuk": "lietajuci"
   },
   "mosasaurus": {
     "meno": "Mosasaurus",
     "kde_zil": "Svetové oceány (pred 70 miliónmi rokov)",
-    "info": "Obrovské morské monštrum, ktoré vládlo pravekým oceánom. Vyzeral ako gigantický krokodíl s plutvami a dokázal prehltnúť celého žraloka na jedno sústo.",
+    "info": "Obrovské morské monštrum, ktoré vládlo pravekým oceánom. Vyzeral ako gigantický krokodíl s plutvami and dokázal prehltnúť celého žraloka na jedno sústo.",
     "vtip": "Čo povie Mosasaurus, keď stretne potápača? Mňam, konečne niečo v konzerve!",
     "zvuk": "vodny"
   },
@@ -94,14 +94,14 @@
     "meno": "Parasaurolophus",
     "kde_zil": "Severná Amerika (pred 76 miliónmi rokov)",
     "info": "Dinosaurus s dlhou dutou trúbou na hlave. Touto trúbou dokázal vydávať hlboké zvuky ako lodná siréna, ktorými komunikoval so svojím stádom na kilometre ďaleko.",
-    "vtip": "Prečo Parasaurolophus nikdy nepotreboval mobil? Lebo stačilo, keď zatrúbil na svoju hlavu, a počulo ho celé mesto!",
+    "vtip": "Prečo Parasaurolophus nikdy nepotreboval mobil? Lebo stačilo, keď zatrúbil na svoju hlavu, and počulo ho celé mesto!",
     "zvuk": "bylinozravec"
   },
   "allosaurus": {
     "meno": "Allosaurus",
-    "kde_zil": "Severná Amerika a Európa (pred 155 miliónmi rokov)",
-    "info": "Hlavný predátor jurského obdobia. Bol o niečo menší ako T-Rex, ale mal oveľa dlhšie a silnejšie predné ruky s ostrými pazúrmi, ktorými držal korisť.",
-    "vtip": "Prečo Allosaurus nerád súperil s T-Rexom v pretláčaní rukou? Lebo by to bolo nefér, Allosaurus mal ruky a T-Rex len ozdobu!",
+    "kde_zil": "Severná Amerika and Európa (pred 155 miliónmi rokov)",
+    "info": "Hlavný predátor jurského obdobia. Bol o niečo menší ako T-Rex, ale mal oveľa dlhšie and silnejšie predné ruky s ostrými pazúrmi, ktorými držal korisť.",
+    "vtip": "Prečo Allosaurus nerád súperil s T-Rexom v pretláčaní rukou? Lebo by to bolo nefér, Allosaurus mal ruky and T-Rex len ozdobu!",
     "zvuk": "dravec"
   },
   "carnotaurus": {
@@ -113,15 +113,15 @@
   },
   "iguanodon": {
     "meno": "Iguanodon",
-    "kde_zil": "Európa a Ázia (pred 125 miliónmi rokov)",
+    "kde_zil": "Európa and Ázia (pred 125 miliónmi rokov)",
     "info": "Veľký bystrý bylinožravec, ktorý mal na palcoch predných nôh obrovské ostré dýky na obranu proti predátorom. Dokázal chodiť po dvoch aj po štyroch nohách.",
-    "vtip": "Čo urobí Iguanodon, keď mu dravec povie kradni? Ukáže mu palec hore a povie: Nie, ja ťa radšej bodnem!",
+    "vtip": "Čo urobí Iguanodon, keď mu dravec povie kradni? Ukáže mu palec hore and povie: Nie, ja ťa radšej bodnem!",
     "zvuk": "bylinozravec"
   },
   "dilophosaurus": {
     "meno": "Dilophosaurus",
     "kde_zil": "Severná Amerika (pred 193 miliónmi rokov)",
-    "info": "Mal na hlave dva krásne polmesiacovité hrebene. Vo filmoch ho ukazujú, ako pľuje jed a otvára golier, no vedci zistili, že v skutočnosti bol oveľa väčší a nič také nerobil.",
+    "info": "Mal na hlave dva krásne polmesiacovité hrebene. Vo filmoch ho ukazujú, ako pľuje jed and otvára golier, no vedci zistili, že v skutočnosti bol oveľa väčší and nič také nerobil.",
     "vtip": "Prečo je Dilophosaurus nahnevaný na režisérov Jurského parku? Lebo z neho urobili jedovatú jaštericu veľkú ako pes, pričom bol veľký ako auto!",
     "zvuk": "dravec"
   },
@@ -129,28 +129,28 @@
     "meno": "Pachycephalosaurus",
     "kde_zil": "Severná Amerika (pred 66 miliónmi rokov)",
     "info": "Dinosaurus s extrémne hrubou lebkou – na vrchu hlavy mal až 25 centimetrov hrubú kostenú helmu. Používal ju na narážanie do súperov alebo na obranu.",
-    "vtip": "Prečo Pachycephalosaurus nikdy nenosil šiltovku? Lebo žiadna gumička nedokázala udržať čiapku na takej tvrdej a oblej hlave!",
+    "vtip": "Prečo Pachycephalosaurus nikdy nenosil šiltovku? Lebo žiadna gumička nedokázala udržať čiapku na takej tvrdej and oblej hlave!",
     "zvuk": "bylinozravec"
   },
   "archaeopteryx": {
     "meno": "Archaeopteryx",
     "kde_zil": "Európa / Nemecko (pred 150 miliónmi rokov)",
-    "info": "Slávny 'prvovták'. Predstavuje dokonalý most medzi dinosaurami a vtákmi – mal perie a krídla, ale zároveň dinosaurie zuby, dlhý chvost a pazúry.",
-    "vtip": "Čo povie Archaeopteryx, keď sa ráno zobudí? Som jašterica, čo lieta, alebo vták, čo nevie spie waist? Ach, táto kríza identity!",
+    "info": "Slávny 'prvovták'. Predstavuje dokonalý most medzi dinosaurami and vtákmi – mal perie and krídla, ale zároveň dinosaurie zuby, dlhý chvost and pazúry.",
+    "vtip": "Čo povie Archaeopteryx, keď sa ráno zobudí? Som jašterica, čo lieta, alebo vták, čo nevie spievať? Ach, táto kríza identity!",
     "zvuk": "lietajuci"
   },
   "giganotosaurus": {
     "meno": "Giganotosaurus",
     "kde_zil": "Južná Amerika (pred 97 miliónmi rokov)",
-    "info": "Obrovské monštrum, ktoré bolo telesne dokonca dlhšie ako samotný T-Rex. Žil v Južnej Amerike a lovil gigantické bylinožravce v organizovaných skupinách.",
+    "info": "Obrovské monštrum, ktoré bolo telesne dokonca dlhšie ako samotný T-Rex. Žil v Južnej Amerike and lovil gigantické bylinožravce v organizovaných skupinách.",
     "vtip": "Čo povie Giganotosaurus T-Rexovi? Moje meno je dlhšie, moje telo je dlhšie, tak prečo o tebe točia všetky filmy?!",
     "zvuk": "dravec"
   },
   "baryonyx": {
     "meno": "Baryonyx",
     "kde_zil": "Európa / Anglicko (pred 125 miliónmi rokov)",
-    "info": "Mal hlavu dlhú a úzku ako krokodíl a na predných tlapách mal jeden obrovský, 30-centimetrový zahnutý pazúr, ktorým lovil ryby z riek ako medveď.",
-    "vtip": "Aký je najobľúbenejší šport Baryonyxa? Športový rybolov, ale bez udice a bez povolenia!",
+    "info": "Mal hlavu dlhú and úzku ako krokodíl and na predných tlapách mal jeden obrovský, 30-centimetrový zahnutý pazúr, ktorým lovil ryby z riek ako medveď.",
+    "vtip": "Aký je najobľúbenejší šport Baryonyxa? Športový rybolov, ale bez udice and bez povolenia!",
     "zvuk": "dravec"
   },
   "therizinosaurus": {
@@ -164,27 +164,27 @@
     "meno": "Oviraptor",
     "kde_zil": "Ázia (pred 75 miliónmi rokov)",
     "info": "Jeho meno v preklade znamená 'zlodej vajec', pretože jeho kostru našli pri hniezde. Vedci neskôr zistili, že nekradol, ale hrdinsky chránil vlastné vajíčka.",
-    "vtip": "Čo povie Oviraptor paleontológom? Tisíc rokov tu sedím na hniezde ako vzorný rodič a vy ma v novinách nazvete zlodejom vajíčok?!",
+    "vtip": "Čo povie Oviraptor paleontológom? Tisíc rokov tu sedím na hniezde ako vzorný rodič and vy ma v novinách nazvete zlodejom vajíčok?!",
     "zvuk": "raptor"
   },
   "deinonychus": {
     "meno": "Deinonychus",
     "kde_zil": "Severná Amerika (pred 115 miliónmi rokov)",
-    "info": "Väčší a nebezpečnejší brat Velociraptora. Práve podľa tohto dinosaura vytvorili filmových raptorov v Jurskom parku. Mal na zadnej nohe obrovský kosákovitý pazúr.",
+    "info": "Väčší and nebezpečnejší brat Velociraptora. Práve podľa tohto dinosaura vytvorili filmových raptorov v Jurskom parku. Mal na zadnej nohe obrovský kosákovitý pazúr.",
     "vtip": "Prečo filmári premenovali Deinonycha na Velociraptora? Lebo Velociraptor znie oveľa viac cool, aj keď je veľký ako kura!",
     "zvuk": "raptor"
   },
   "troodon": {
     "meno": "Troodon",
     "kde_zil": "Severná Amerika (pred 77 miliónmi rokov)",
-    "info": "Považuje sa za najinteligentnejšieho dinosaura vôbec. Mal v pomere k telu obrovský mozog, veľké oči prispôsobené na nočný lov a skvelý sluch.",
+    "info": "Považuje sa za najinteligentnejšieho dinosaura vôbec. Mal v pomere k telu obrovský mozog, veľké oči prispôsobené na nočný lov and skvelý sluch.",
     "vtip": "Čo by robil Troodon, keby nevyhynul? Pravdepodobne by teraz namiesto nás programoval aplikácie v Streamlite!",
     "zvuk": "raptor"
   },
   "pterosaur": {
     "meno": "Pterosauri (Lietajúce jaštery)",
     "kde_zil": "Po celom svete (pravek)",
-    "info": "Skupina lietajúcich plazov, ktoré ovládali oblohu počas celej éry dinosaurov. Neboli to vtáky, ich krídla tvorila napnutá koža medzi telom a dlhým prstom.",
+    "info": "Skupina lietajúcich plazov, ktoré ovládali oblohu počas celej éry dinosaurov. Neboli to vtáky, ich krídla tvorila napnutá koža medzi telom and dlhým prstom.",
     "vtip": "Prečo pterosauri nelietali nízko nad lesom? Lebo chytiť sosnu do koženého krídla fakt celkom dosť bolí!",
     "zvuk": "lietajuci"
   },
@@ -192,26 +192,26 @@
     "meno": "Quetzalcoatlus",
     "kde_zil": "Severná Amerika (pred 68 miliónmi rokov)",
     "info": "Najväčší lietajúci tvor všetkých čias. Keď stál na zemi, bol vysoký ako dnešná žirafa. Rozpätie jeho krídel bolo neuveriteľných 11 metrov!",
-    "vtip": "Aký je rozdiel medzi Quetzalcoatlom a stíhačkou? Stíhačka potrebuje palivo, Quetzalcoatlovi stačilo zjesť na obed dvoch malých dinosaurov!",
+    "vtip": "Aký je rozdiel medzi Quetzalcoatlom and stíhačkou? Stíhačka potrebuje palivo, Quetzalcoatlovi stačilo zjesť na obed dvoch malých dinosaurov!",
     "zvuk": "lietajuci"
   },
   "plesiosaurus": {
     "meno": "Plesiosaurus",
     "kde_zil": "Európa (pred 199 miliónmi rokov)",
     "info": "Dlhokrký morský plaz so štyrmi veľkými plutvami, ktorý plával vo vode ako dnešné morské korytnačky. Práve podľa jeho vzhľadu vznikla legenda o Lochnesskej príšere.",
-    "vtip": "Čo robí Plesiosaurus v Škótsku? Schováva sa pred turistami a smeje sa, koľko peňazí míňajú na jeho fotky!",
+    "vtip": "Čo robí Plesiosaurus v Škótsku? Schováva sa pred turistami and smeje sa, koľko peňazí míňajú na jeho fotky!",
     "zvuk": "vodny"
   },
   "ichthyosaurus": {
     "meno": "Ichthyosaurus",
     "kde_zil": "Európa (pred 200 miliónmi rokov)",
-    "info": "Morský jašter, ktorý sa neskutočne podobal na dnešného delfína. Mal aerodynamické telo, chrbtovú plutvu a obrovské oči, vďaka ktorým videl aj v úplnej tme na dne oceánu.",
+    "info": "Morský jašter, ktorý sa neskutočne podobal na dnešného delfína. Mal aerodynamické telo, chrbtovú plutvu and obrovské oči, vďaka ktorým videl aj v úplnej tme na dne oceánu.",
     "vtip": "Čo povie Ichthyosaurus delfínovi? Skopíroval si môj dizajn o dvesto miliónov rokov neskôr, mal by som ťa zažalovať za autorské práva!",
     "zvuk": "vodny"
   },
   "kronosaurus": {
     "meno": "Kronosaurus",
-    "kde_zil": "Austrália a Kolumbia (pred 120 miliónmi rokov)",
+    "kde_zil": "Austrália and Kolumbia (pred 120 miliónmi rokov)",
     "info": "Obrovský morský dravý plaz s masívnou trojmetrovou hlavou plnou ostrých zubov. Bol to top predátor morí, ktorý lovil všetko, čo sa pohlo.",
     "vtip": "Čo je najhoršia nočná mora pravekej ryby? Uvidieť pred sebou zuby, ktoré sú väčšie ako tvoje celé telo!",
     "zvuk": "vodny"
@@ -220,13 +220,13 @@
     "meno": "Protoceratops",
     "kde_zil": "Ázia / Mongolsko (pred 75 miliónmi rokov)",
     "info": "Menší predok Triceratopsa, veľký asi ako ovca. Nemal ešte žiadne rohy, iba kostený golier na hlave. Preslávila ho fosília, kde je zakliaty v boji s Velociraptorom.",
-    "vtip": "Prečo Protoceratops nemal rohy? Lebo si ich zabudol objednať z pravekého e-shopu a evolúcia mu ich doručila až o milión rokov neskôr!",
+    "vtip": "Prečo Protoceratops nemal rohy? Lebo si ich zabudol objednať z pravekého e-shopu and evolúcia mu ich doručila až o milión rokov neskôr!",
     "zvuk": "bylinozravec"
   },
   "styracosaurus": {
     "meno": "Styracosaurus",
     "kde_zil": "Severná Amerika (pred 75 miliónmi rokov)",
-    "info": "Bratranec Triceratopsa, ktorý mal na svojom kostenom golieri šesť dlhých ostrých bodcov a jeden obrovský roh na nose. Vyzeral ako punkový rockový dinosaurus.",
+    "info": "Bratranec Triceratopsa, ktorý mal na svojom kostenom golieri šesť dlhých ostrých bodcov and jeden obrovský roh na nose. Vyzeral ako punkový rockový dinosaurus.",
     "vtip": "Kto bol kaderníkom Styracosaura? Nikto, tie ostne mal od narodenia, aby ukázal, že on tvrdú muziku nielen počúva, ale ju aj žije!",
     "zvuk": "bylinozravec"
   },
@@ -241,21 +241,21 @@
     "meno": "Kentrosaurus",
     "kde_zil": "Afrika / Tanzánia (pred 152 miliónmi rokov)",
     "info": "Africký brat Stegosaura. Od polovice chrbta až po koniec chvosta mal namiesto plochých platní dlhé, neskutočne ostré kostené tŕne na obranu.",
-    "vtip": "Prečo Kentrosaurus nikdy nedostal objatie od svojich kamošov? Skús objať chodiacu krabičku so špendlíkmi a pochopíš!",
+    "vtip": "Prečo Kentrosaurus nikdy nedostal objatie od svojich kamošov? Skús objať chodiacu krabičku so špendlíkmi and pochopíš!",
     "zvuk": "bylinozravec"
   },
   "edmontonia": {
     "meno": "Edmontonia",
     "kde_zil": "Severná Amerika (pred 71 miliónmi rokov)",
     "info": "Hrubo pancierovaný uzemnený dinosaurus, ktorý mal na pleciach obrovské dopredu namierené ostne. Fungoval ako živá stena s bodákmi.",
-    "vtip": "Čo urobí T-Rex, keď uvidí Edmontoniu? Vzdá to a ide si radšej objednať pizzu, do tohto by si zuby nevylámal len blázon!",
+    "vtip": "Čo urobí T-Rex, keď uvidí Edmontoniu? Vzdá to and ide si radšej objednať pizzu, do tohto by si zuby nevylámal len blázon!",
     "zvuk": "bylinozravec"
   },
   "corythosaurus": {
     "meno": "Corythosaurus",
     "kde_zil": "Severná Amerika (pred 77 miliónmi rokov)",
-    "info": "Dinosaurus s kačacím zobákom, ktorý mal na hlave vysokú kostenú prilbu pripomínajúcu korintskú helmu antických bojovníkov. Prilba bola dutá a slúžila ako zosilňovač hlasu.",
-    "vtip": "Prečo Corythosaurus vyhral rečnícku súťaž? Lebo vďaka svojej helme prekričal aj búrku a nikto ho nedokázal prerušiť!",
+    "info": "Dinosaurus s kačacím zobákom, ktorý mal na hlave vysokú kostenú prilbu pripomínajúcu korintskú helmu antických bojovníkov. Prilba bola dutá and slúžila ako zosilňovač hlasu.",
+    "vtip": "Prečo Corythosaurus vyhral rečnícku súťaž? Lebo vďaka svojej helme prekričal aj búrku and nikto ho nedokázal prerušiť!",
     "zvuk": "bylinozravec"
   },
   "maiasaura": {
@@ -274,44 +274,44 @@
   },
   "ceratosaurus": {
     "meno": "Ceratosaurus",
-    "kde_zil": "Severná Amerika a Európa (pred 150 miliónmi rokov)",
-    "info": "Dravý mäsožravec, ktorý mal na nose malý ostrý roh a na chrbte rad malých kostených gombíkov. Bol to rýchly samotársky lovec lesov.",
-    "vtip": "Prečo mal Ceratosaurus roh na nose, keď bol mäsožravec? Aby si ho T-Rex nepomýlil s obyčajným Allosaurom a bral ho vážne!",
+    "kde_zil": "Severná Amerika and Európa (pred 150 miliónmi rokov)",
+    "info": "Dravý mäsožravec, ktorý mal na nose malý ostrý roh and na chrbte rad malých kostených gombíkov. Bol to rýchly samotársky lovec lesov.",
+    "vtip": "Prečo mal Ceratosaurus roh na nose, keď bol mäsožravec? Aby si ho T-Rex nepomýlil s obyčajným Allosaurom and bral ho vážne!",
     "zvuk": "dravec"
   },
   "coelophysis": {
     "meno": "Coelophysis",
     "kde_zil": "Severná Amerika (pred 203 miliónmi rokov)",
-    "info": "Jeden z najstarších známych dinosaurov na svete. Bol štíhly, dlhý ako človek, behal na dvoch nohách neskutočnou rýchlosťou a lovil hmyz a malé plazy.",
+    "info": "Jelen z najstarších známych dinosaurov na svete. Bol štíhly, dlhý ako človek, behal na dvoch nohách neskutočnou rýchlosťou and lovil hmyz and malé plazy.",
     "vtip": "Prečo bol Coelophysis taký chudý? Lebo pri tom neustálom behaní za jaštericami spálil viac kalórií, než stihol za celý deň zjesť!",
     "zvuk": "raptor"
   },
   "compsognathus": {
     "meno": "Compsognathus",
     "kde_zil": "Európa / Nemecko (pred 150 miliónmi rokov)",
-    "info": "Dlho držal rekord ako najmenší dinosaurus – bol veľký len ako dnešné kura. Mal jemné dlhé nohy a bol neskutočne obratný pri kľučkovaní v kroví.",
-    "vtip": "Čo povie človek, keď stretne Compsognatha? Jééj, aké zlaté kuriatko... a kde mám vlastne polovicu topánky?!",
+    "info": "Dlho držal rekord ako najmenší dinosaurus – bol veľký len ako dnešné kura. Mal jemné dlhé nohy and bol neskutočne obratný pri kľučkovaní v kroví.",
+    "vtip": "Čo povie človek, keď stretne Compsognatha? Jééj, aké zlaté kuriatko... and kde mám vlastne polovicu topánky?!",
     "zvuk": "raptor"
   },
   "oviraptorid": {
     "meno": "Oviraptorid",
     "kde_zil": "Ázia (pred 70 miliónmi rokov)",
     "info": "Dinosaurus s krátkou hlavou bez zubov, ale so silným zobákom pripomínajúcim papagája. Celé telo mal pokryté hustým pestrofarebným perím.",
-    "vtip": "Čo urobí Oviraptorid, keď stretne papagája? Povie mu: Ty si síce pekný, ale ja som tvoj prapradedko a vážim sto kíl!",
+    "vtip": "Čo urobí Oviraptorid, keď stretne papagája? Povie mu: Ty si síce pekný, ale ja som tvoj prapradedko and vážim sto kíl!",
     "zvuk": "raptor"
   },
   "microraptor": {
     "meno": "Microraptor",
     "kde_zil": "Ázia / Čína (pred 120 miliónmi rokov)",
     "info": "Neskutočný dinosaurus, ktorý mal štyri krídla! Perie mal nielen na predných rukách, ale aj na zadných nohách. Používal ich na plachtenie zo stromu na strom.",
-    "vtip": "Prečo mal Microraptor štyri krídla? Lebo s dvoma lietajú obyčajné vrabce a on chcel byť v praveku za absolútneho frajera!",
+    "vtip": "Prečo mal Microraptor štyri krídla? Lebo s dvoma lietajú obyčajné vrabce and on chcel byť v praveku za absolútneho frajera!",
     "zvuk": "lietajuci"
   },
   "deocheirus": {
     "meno": "Deinocheirus",
     "kde_zil": "Ázia / Mongolsko (pred 70 miliónmi rokov)",
-    "info": "Jeden z najpodivnejších dinosaurov. Vyzeral ako obrovský 11-metrový kríženec pelikána, ťavy a kačice. Mal obrovský hrb na chrbte a trištvrte-metrové ruky s pazúrmi.",
-    "vtip": "Keď príroda tvorila Deinocheira, pravdepodobne jej zostalo pár náhradných dielov z iných zvierat a rozhodla sa ich spojiť dokopy!",
+    "info": "Jeden z najpodivnejších dinosaurov. Vyzeral ako obrovský 11-metrový kríženec pelikána, ťavy and kačice. Mal obrovský hrb na chrbte and trištvrte-metrové ruky s pazúrmi.",
+    "vtip": "Keď príroda tvorila Deinocheira, pravdepodobne jej zostalo pár náhradných dielov z iných zvierat and rozhodla sa ich spojiť dokopy!",
     "zvuk": "bylinozravec"
   },
   "amargasaurus": {
@@ -325,28 +325,406 @@
     "meno": "Shunosaurus",
     "kde_zil": "Ázia / Čína (pred 159 miliónmi rokov)",
     "info": "Dlhokrký obor, ktorý mal jedno veľké prekvapenie – na konci svojho dlhého chvosta mal ťažkú kostenú guľu s ostňami, podobne ako Ankylosaurus.",
-    "vtip": "Čo sa stane, keď naštveš Shunosaura? Najprv sa ti smeje, že máš krátky krk, a o sekundu neskôr ti jeho chvostová guľa preletí pred nosom!",
+    "vtip": "Čo se stane, keď naštveš Shunosaura? Najprv sa ti smeje, že máš krátky krk, and o sekundu neskôr ti jeho chvostová guľa preletí pred nosom!",
     "zvuk": "bylinozravec"
   },
   "saltasaurus": {
     "meno": "Saltasaurus",
     "kde_zil": "Južná Amerika (pred 70 miliónmi rokov)",
-    "info": "Prvú objavený dlhokrký dinosaurus, ktorý mal na chrbte stovky malých kostených gombíkov a platní. Evolúcia mu dala pancier, aby ho ochránila pred dravcami.",
-    "vtip": "Ako sa bráni Saltasaurus? Ľahne si na brucho a tvári sa, že je vydláždená kamenná cesta do vedľajšej dediny!",
+    "info": "Prvú objavený dlhokrký dinosaurus, ktorý mal na chrbte stovky malých kostených gombíkov and platní. Evolúcia mu dala pancier, aby ho ochránila pred dravcami.",
+    "vtip": "Ako sa bráni Saltasaurus? Ľahne si na brucho and tvári sa, že je vydláždená kamenná cesta do vedľajšej dediny!",
     "zvuk": "bylinozravec"
   },
-  "maira": {
+  "majungasaurus": {
     "meno": "Majungasaurus",
     "kde_zil": "Madagaskar (pred 66 miliónmi rokov)",
-    "info": "Dravý mäsožravec s veľmi krátkou a hrubou hlavou, na ktorej mal jeden malý bodec. Žil na izolovanom ostrove Madagaskar a bol to obávaný samotár.",
+    "info": "Dravý mäsožravec s veľmi krátkou and hrubou hlavou, na ktorej mal jeden malý bodec. Žil na izolovanom ostrove Madagaskar and bol to obávaný samotár.",
     "vtip": "Prečo mal Majungasaurus takú krátku hlavu? Lebo neustále narážal do stromov, keď v plnej rýchlosti naháňal korisť po madagaskarskom lese!",
     "zvuk": "dravec"
   },
   "buitreraptor": {
     "meno": "Buitreraptor",
     "kde_zil": "Južná Amerika (pred 94 miliónmi rokov)",
-    "info": "Malý operený blesk s extrémne dlhou a úzkou hlavou plnou miniatúrnych ostrých zubov. Vyzeral skôr ako dravý bocian s chvostom a lovil malé jašterice.",
-    "vtip": "Čo povie Buitreraptor, keď vidí žabu? Ty síce vieš skákať, ale môj dlhý zobák je rýchlejší ako tvoje najlepšie skoky!",
+    "info": "Malý operený blesk s extrémne dlhou and úzkou hlavou plnou miniatúrnych ostrých zubov. Vyzeral skôr ako dravý bocian s chvostom and lovil malé jašterice.",
+    "vtip": "Čo povie Buitreraptor, keď vidí žabu? Ty si síce vieš skákať, ale môj dlhý zobák je rýchlejší ako tvoje najlepšie skoky!",
     "zvuk": "raptor"
+  },
+  "argentinosaurus": {
+    "meno": "Argentinosaurus",
+    "kde_zil": "Južná Amerika (pred 95 miliónmi rokov)",
+    "info": "Absolútny kráľ váhy. Najväčší a najťažší suchozemský tvor všetkých čias. Vážil až 90 ton (ako 15 afrických slonov) a len jeden jeho stavec mal výšku dospelého človeka.",
+    "vtip": "Čo sa stane, keď Argentinosaurus skočí do mláky? V Južnej Amerike vznikne nové jazero a v Európe zaznamenajú zemetrasenie!",
+    "zvuk": "bylinozravec"
+  },
+  "albertosaurus": {
+    "meno": "Albertosaurus",
+    "kde_zil": "Severná Amerika / Kanada (pred 70 miliónmi rokov)",
+    "info": "Blízky, o niečo menší a rýchlejší príbuzný T-Rexa. Žil v severských oblastiach Kanady a paleontológovia zistili, že lovil v organizovaných rodinných svorkách.",
+    "vtip": "Prečo bol Albertosaurus lepší lovec ako T-Rex? Lebo kým T-Rex robil ramená v kinách, Albertosaurus makal so svojou svorkou vonku v snehu!",
+    "zvuk": "dravec"
+  },
+  "anchiornis": {
+    "meno": "Anchiornis",
+    "kde_zil": "Ázia / Čína (pred 160 miliónmi rokov)",
+    "info": "Miniatúrny operený dinosaurus. Je to jeden z mála tvorov, pri ktorom vedci vďaka odtlačkom buniek presne poznajú farby – mal čierne telo, biele pásy na krídlach a červenú korunku na hlave.",
+    "vtip": "Ako vyzeral Anchiornis? Ako praveký punkový holub, ktorý omylom padol do plechovky s farbami!",
+    "zvuk": "raptor"
+  },
+  "bambiraptor": {
+    "meno": "Bambiraptor",
+    "kde_zil": "Severná Amerika (pred 72 miliónmi rokov)",
+    "info": "Malý dravý dinosaurus, ktorého vedci pomenovali podľa známej rozprávkovej postavičky Bambi. Mal však ostré zuby, obrie pazúry a neuveriteľnú rýchlosť.",
+    "vtip": "Čo ti urobí Bambiraptor, keď ho nazveš zlatým jelenčekom? Rozbehne sa za tebou a vysvetlí ti, že rozprávky v praveku neplatili!",
+    "zvuk": "raptor"
+  },
+  "brachylophosaurus": {
+    "meno": "Brachylophosaurus",
+    "kde_zil": "Severná Amerika (pred 77 miliónmi rokov)",
+    "info": "Dinosaurus s kačacím zobákom, ktorého preslávil nález múmie menom 'Leonardo'. Našla sa mu zachovaná kompletná koža, svaly a dokonca aj posledné jedlo v žalúdku.",
+    "vtip": "Prečo Leonardo neznášal návštevy lekára? Lebo mu videli do žalúdka aj po 77 miliónoch rokov!",
+    "zvuk": "bylinozravec"
+  },
+  "camarasaurus": {
+    "meno": "Camarasaurus",
+    "kde_zil": "Severná Amerika (pred 150 miliónmi rokov)",
+    "info": "Najbežnejší dlhokrký obor jurského obdobia. Mal zvláštnu robustnú hlavu s otvormi v lebke, ktoré mu odľahčovali váhu krku, a lyžicovité zuby na drvenie vetiev.",
+    "vtip": "Prečo mal Camarasaurus v hlave diery? Aby mal jeho malý mozog aspoň nejaké prirodzené vetranie počas horúcich dní!",
+    "zvuk": "bylinozravec"
+  },
+  "camptosaurus": {
+    "meno": "Camptosaurus",
+    "kde_zil": "Severná Amerika and Európa (pred 150 miliónmi rokov)",
+    "info": "Rýchly, ohybný bylinožravec, ktorý dokázal utekať na zadných nohách pred Allosaurami, ale pri pasení sa na zemi chodil stabilne po všetkých štyroch.",
+    "vtip": "Aká je najlepšia taktika Camptosaura? Keď vidíš tieň dravca, prepni na pohon dvoch nôh a utekaj rýchlejšie ako vietor!",
+    "zvuk": "bylinozravec"
+  },
+  "caudipteryx": {
+    "meno": "Caudipteryx",
+    "kde_zil": "Ázia / Čína (pred 125 miliónmi rokov)",
+    "info": "Malý dinosaurus s pávím chvostom z peria a krátkym zobákom. Nevedel lietať, ale perie používal na predvádzanie sa pred ostatnými členmi kmeňa.",
+    "vtip": "Čo povie Caudipteryx pávovi? Tvoj chvost je síce pekný, ale ja som mal perie v móde ešte pred tým, než tvoj druh vôbec vznikol!",
+    "zvuk": "raptor"
+  },
+  "centrosaurus": {
+    "meno": "Centrosaurus",
+    "kde_zil": "Severná Amerika (pred 75 miliónmi rokov)",
+    "info": "Masívny rohatý dinosaurus, ktorý mal na nose jeden dlhý zahnutý roh a jeho kostený golier bol olemovaný malými hákovitými ostňami smerujúcimi dopredu.",
+    "vtip": "Prečo mal Centrosaurus roh zahnutý dopredu? Aby mohol dravcov rovno naberať ako na vidly a hádzať ich za seba!",
+    "zvuk": "bylinozravec"
+  },
+  "chasmosaurus": {
+    "meno": "Chasmosaurus",
+    "kde_zil": "Severná Amerika (pred 76 miliónmi rokov)",
+    "info": "Rohatý dinosaurus s jedným z najväčších kostených golierov v pomere k telu. Jeho golier bol taký obrovský, že vyzeral ako chodiaca lodná plachta.",
+    "vtip": "Čo sa stane, keď fúkne silný vietor Chasmosaurovi do chrbta? Dostane nečakané zrýchlenie a preletí cez celé údolie!",
+    "zvuk": "bylinozravec"
+  },
+  "chialingosaurus": {
+    "meno": "Chialingosaurus",
+    "kde_zil": "Ázia / Čína (pred 160 miliónmi rokov)",
+    "info": "Starší ázijský príbuzný Stegosaura. Bol štíhlejší a namiesto veľkých platní mal na chrbte úzke ihlicovité ostne, ktoré prechádzali do obrovských bodákov na chvoste.",
+    "vtip": "Čo urobí Chialingosaurus, keď ho niekto nahnevá? Nastaví mu svoj chrbat a spýta sa: Chceš si sadnúť na môj masážny gauč?!",
+    "zvuk": "bylinozravec"
+  },
+  "citipati": {
+    "meno": "Citipati",
+    "kde_zil": "Ázia / Mongolsko (pred 75 miliónmi rokov)",
+    "info": "Dinosaurus veľkosti emu s vysokým hrebeňom na hlave. Našiel sa vo fantastickej polohe, kde svojimi pernatými krídlami doslova objíma hniezdo plné vajíčok, aby ich zachránil pred piesočnou búrkou.",
+    "vtip": "Kto je najlepší strážca v histórii? Citipati, ten neodíde od vajíčok ani vtedy, keď naňho padá celá púšť!",
+    "zvuk": "raptor"
+  },
+  "cryolophosaurus": {
+    "meno": "Cryolophosaurus",
+    "kde_zil": "Antarktída (pred 190 miliónmi rokov)",
+    "info": "Jedinečný mäsožravec. Žil v Antarktíde, ktorá však vtedy bola zelená a teplá. Na hlave mal zvláštny hrebeň otočený do boku, ktorý pripomínal účes speváka Elvisa Presleyho.",
+    "vtip": "Ako volajú vedci Cryolophosaura? Elvisaurus, lebo jeho rockandrollový hrebeň bol kráľom celej antarktickej džungle!",
+    "zvuk": "dravec"
+  },
+  "daspletosaurus": {
+    "meno": "Daspletosaurus",
+    "kde_zil": "Severná Amerika (pred 75 miliónmi rokov)",
+    "info": "Masívny dravý bratranec T-Rexa. Jeho meno znamená 'strašný jašter'. Mal neskutočne hrubú stavbu lebky a lovil obrnené rohaté dinosaury.",
+    "vtip": "Prečo sa Daspletosaurus nikdy neusmieval? Skús mať zuby dlhé 10 centimetrov a uvidíš, aké ťažké je urobiť peknú fotku!",
+    "zvuk": "dravec"
+  },
+  "dromaeosaurus": {
+    "meno": "Dromaeosaurus",
+    "kde_zil": "Severná Amerika (pred 75 miliónmi rokov)",
+    "info": "Malý, ale neuveriteľne agresívny a robustný príbuzný raptorov. Hoci bol veľký len ako vlk, mal čeľuste silné ako dravé psy a dokázal sa zahryznúť s obrovskou silou.",
+    "vtip": "Čo je horšie ako jeden hladný Velociraptor? Jeden dromaeosaurus, ktorý má stisk ako pitbull a rýchlosť rakety!",
+    "zvuk": "raptor"
+  },
+  "dreadnoughtus": {
+    "meno": "Dreadnoughtus",
+    "kde_zil": "Južná Amerika (pred 77 miliónmi rokov)",
+    "info": "Jeho meno znamená 'ten, ktorý sa ničoho nebojí'. Bol to gigantický dlhokrký titanosaurus, ktorý bol taký obrovský, že zdravý dospelý jedinec nemal na svete žiadneho prirodzeného nepriateľa.",
+    "vtip": "Kto vyhrá súboj medzi T-Rexom a Dreadnoughtusom? Dreadnoughtus, lebo T-Rexovi stačí len stúpiť na chvost a je po boji!",
+    "zvuk": "bylinozravec"
+  },
+  "dryosaurus": {
+    "meno": "Dryosaurus",
+    "kde_zil": "Severná Amerika and Európa (pred 150 miliónmi rokov)",
+    "info": "Malý, štíhly a veľmi rýchly bylinožravec s veľkými očami a bežeckými nohami. Nemal žiadne zbrane, jeho jedinou obranou bol okamžitý útek do hustého lesa.",
+    "vtip": "Aký je najobľúbenejší šport Dryosaura? Šprint na sto metrov s prekážkami, kde prekážkou je hladný Allosaurus!",
+    "zvuk": "bylinozravec"
+  },
+  "dacentrurus": {
+    "meno": "Dacentrurus",
+    "kde_zil": "Európa / Anglicko (pred 154 miliónmi rokov)",
+    "info": "Veľký európsky príbuzný Stegosaura. Mal masívne boky a jeho chrbát bol posiaty dlhými párovými ostňami, ktoré na konci chvosta merali vyše metra.",
+    "vtip": "Prečo bol Dacentrurus zlým spoločníkom v kine? Lebo svojimi chvostovými ostňami prepichol tri rady sedadiel za sebou!",
+    "zvuk": "bylinozravec"
+  },
+  "einiosaurus": {
+    "meno": "Einiosaurus",
+    "kde_zil": "Severná Amerika (pred 74 miliónmi rokov)",
+    "info": "Bizarný rohatý dinosaurus, ktorý mal hlavný roh na nose zahnutý smerom nadol a dopredu, takže vyzeral ako veľký otvárač na konzervy.",
+    "vtip": "Na čo slúžil roh Einiosaura? Vedci doteraz nevedia, ale vyzerá to tak, že ním cez víkendy otváral praveké kokosové orechy!",
+    "zvuk": "bylinozravec"
+  },
+  "elaphrosaurus": {
+    "meno": "Elaphrosaurus",
+    "kde_zil": "Afrika / Tanzánia (pred 150 miliónmi rokov)",
+    "info": "Veľmi ľahko stavaný, dlhý a štíhly dravý dinosaurus. Mal dlhý krk a behal tak ladne a rýchlo, že ho vedci prirovnávajú k dnešnému pštrosovi.",
+    "vtip": "Čo urobí Elaphrosaurus, keď ho prenasleduje väčší dravec? Zaradí piaty rýchlostný stupeň a nechá za sebou len oblak pravekého prachu!",
+    "zvuk": "dravec"
+  },
+  "eoraptor": {
+    "meno": "Eoraptor",
+    "kde_zil": "Južná Amerika / Argentína (pred 231 miliónmi rokov)",
+    "info": "Jeden z úplne prvých a najstarších dinosaurov, aké kedy žili. Bol veľký ako mačka, vážil okolo 10 kíl a stál na začiatku celej úžasnej evolúcie dinosaurov.",
+    "vtip": "Predstav si, že z tohto malého desaťkilového drobca vyvinul o milióny rokov neskôr obrovský T-Rex! Tomu sa hovorí poriadna puberta!",
+    "zvuk": "raptor"
+  },
+  "euoplocephalus": {
+    "meno": "Euoplocephalus",
+    "kde_zil": "Severná Amerika (pred 76 miliónmi rokov)",
+    "info": "Dobre chránený pancierový dinosaurus. Mal kostené platne dokonca aj na očných viečkach! Keď zavrel oči, bol z neho stopercentne nepriestrelný trezor.",
+    "vtip": "Prečo Euoplocephalus nikdy neplakal pri krájaní cibule? Lebo stačilo zatvoriť jeho kostené očné viečka a bol v bezpečí!",
+    "zvuk": "bylinozravec"
+  },
+  "fukuiraptor": {
+    "meno": "Fukuiraptor",
+    "kde_zil": "Ázia / Japonsko (pred 120 miliónmi rokov)",
+    "info": "Stredne veľký, veľmi obratný mäsožravec objavený v Japonsku. Mal obrovské pazúry na predných rukách, ktoré pripomínali kosáky a slúžili na bleskový lov.",
+    "vtip": "Čo má spoločné Fukuiraptor a ninja bojovník? Obaja útočia rýchlo, nečakane a majú sakramentsky ostré zbrane!",
+    "zvuk": "dravec"
+  },
+  "gallimimus": {
+    "meno": "Gallimimus",
+    "kde_zil": "Ázia / Mongolsko (pred 70 miliónmi rokov)",
+    "info": "Dinosaurus, ktorý vyzeral presne ako gigantický trojmetrový pštros s chvostom a bez peria. Dokázal bežať rýchlosťou až 60 km/h a mal bezzubý zobák.",
+    "vtip": "Prečo Gallimimus nikdy neletel na juh? Lebo letieť nevedel, ale zato tam dokázal doklusat po vlastných rýchlejšie ako autobus!",
+    "zvuk": "bylinozravec"
+  },
+  "gargoyleosaurus": {
+    "meno": "Gargoyleosaurus",
+    "kde_zil": "Severná Amerika (pred 150 miliónmi rokov)",
+    "info": "Jeden z najstarších pancierových dinosaurov. Jeho hlava bola taká pokrytá kostenými výrastkami, že vedcom pripomínal stredovekého kamenného chrliča (gargoyla).",
+    "vtip": "Ako strašil Gargoyleosaurus dravcov? Postavil sa na okraj skaly, prestal sa hýbať a hral sa na strašidelnú kamennú sochu!",
+    "zvuk": "bylinozravec"
+  },
+  "gasosaurus": {
+    "meno": "Gasosaurus",
+    "kde_zil": "Ázia / Čína (pred 160 miliónmi rokov)",
+    "info": "Jeho meno v preklade znamená 'benzínový jašter'. Paleontológovia ho takto vtipne pomenovali preto, lebo jeho kostru objavili robotníci pri stavbe plynárenského závodu v Číne.",
+    "vtip": "Zastavil sa Gasosaurus niekedy na čerpacej stanici? Nie, ale keby žil dnes, určite by bol maskotom nejakej veľkej plynárne!",
+    "zvuk": "dravec"
+  },
+  "gigantoraptor": {
+    "meno": "Gigantoraptor",
+    "kde_zil": "Ázia / Mongolsko (pred 70 miliónmi rokov)",
+    "info": "Obrovské prekvapenie pre vedcov. Vyzeral ako raptor, ale vážil takmer dve tony a meral 8 metrov! Bol to najväčší operený tvor s obrovským vtáčím zobákom v histórii.",
+    "vtip": "Predstav si kura, ktoré je vysoké ako dvojposchodový dom a váži ako auto. Tak presne to bol Gigantoraptor!",
+    "zvuk": "raptor"
+  },
+  "gorgosaurus": {
+    "meno": "Gorgosaurus",
+    "kde_zil": "Severná Amerika (pred 76 miliónmi rokov)",
+    "info": "Zúrivý a rýchly dravý dinosaurus z rodiny tyranosaurov. Bol o niečo štíhlejší ako T-Rex, vďaka čomu bol excelentným šprintérom na dlhé trate.",
+    "vtip": "Čo povie Gorgosaurus, keď zbadá korisť? Môžeš začať utekať, ale pre mňa je to len ranná rozcvička!",
+    "zvuk": "dravec"
+  },
+  "gryposaurus": {
+    "meno": "Gryposaurus",
+    "kde_zil": "Severná Amerika (pred 75 miliónmi rokov)",
+    "info": "Dinosaurus s kačacím zobákom, ktorý sa líšil tým, že mal na nose veľký kostený hrb, takže vyzeral, akoby mal výrazný orlí nos.",
+    "vtip": "Prečo bol Gryposaurus hrdý na svoj nos? Lebo hovorieval, že orlí nos z neho robí najvznešenejšieho kačacieho jaštera v okolí!",
+    "zvuk": "bylinozravec"
+  },
+  "herrerasaurus": {
+    "meno": "Herrerasaurus",
+    "kde_zil": "Južná Amerika / Argentína (pred 230 miliónmi rokov)",
+    "info": "Jeden z prvých veľkých dravých dinosaurov na svete. Mal ohybné čeľuste, ktorými dokázal pevne zvierať zmietajúcu sa korisť, a ostré zuby ako píly.",
+    "vtip": "Kto bol zakladateľom klubu mäsožravcov? Herrerasaurus, on ukazoval ostatným, ako sa správne loví už na samom začiatku praveku!",
+    "zvuk": "dravec"
+  },
+  "homalocephale": {
+    "meno": "Homalocephale",
+    "kde_zil": "Ázia / Mongolsko (pred 70 miliónmi rokov)",
+    "info": "Príbuzný dinosaurov s helmou, ktorý však nemal guľatú hlavu, ale úplne plochú a neskutočne hrubú kostenú platňu na vrchu lebky.",
+    "vtip": "Na čo slúžila hlava Homalocephala? Bola to dokonalá chodiaca tácka, na ktorej mohol cez les prenášať nazbierané ovocie!",
+    "zvuk": "bylinozravec"
+  },
+  "hylaeosaurus": {
+    "meno": "Hylaeosaurus",
+    "kde_zil": "Európa / Anglicko (pred 135 miliónmi rokov)",
+    "info": "Tretí dinosaurus na svete, ktorého ľudstvo oficiálne objavilo a pomenovalo. Mal na pleciach a pozdĺž chrbta rady veľkých, ostrých ostňov smerujúcich do strán.",
+    "vtip": "Prečo bol Hylaeosaurus v múzeu taký slávny? Lebo patril do starej gardy, ktorá otvárala brány pre všetkých ostatných dinosaurov!",
+    "zvuk": "bylinozravec"
+  },
+  "hypacrosaurus": {
+    "meno": "Hypacrosaurus",
+    "kde_zil": "Severná Amerika (pred 75 miliónmi rokov)",
+    "info": "Veľký kačací dinosaurus, ktorý mal na hlave vysoký zaoblený hrebeň v tvare polmesiaca a vysoké stavce na chrbte, ktoré mu tvorili malý hrb.",
+    "vtip": "Prečo mal Hypacrosaurus hrb? Aby všetkým dokázal, že zvládne prejsť pravekú púšť bez toho, aby musel každých päť minút hľadať vodu!",
+    "zvuk": "bylinozravec"
+  },
+  "hypsilophodon": {
+    "meno": "Hypsilophodon",
+    "kde_zil": "Európa / Anglicko (pred 125 miliónmi rokov)",
+    "info": "Malý, mrštný bylinožravec veľkosti gazely. Mal takú dokonalú rovnováhu a rýchlosť, že starí vedci si dokonca mysleli, že dokázal liezť po stromoch ako veverička.",
+    "vtip": "Čo urobí Hypsilophodon, keď stretne Allosaura? Urobí tri bleskové kľučky a zmizne v kroví skôr, než stihne dravec otvoriť ústa!",
+    "zvuk": "bylinozravec"
+  },
+  "janenschia": {
+    "meno": "Janenschia",
+    "kde_zil": "Afrika / Tanzánia (pred 150 miliónmi rokov)",
+    "info": "Veľmi starý a masívny zástupca obrovských dlhokrkých sauropodov objavený v Afrike. Vážil okolo 20 ton a mal mimoriadne silné stĺpovité nohy.",
+    "vtip": "Prečo Janenschia nikdy nepotrebovala topánky? Lebo nájsť číslo 150 v pravekom obchode bolo absolútne nemožné!",
+    "zvuk": "bylinozravec"
+  },
+  "kentrosaurid": {
+    "meno": "Kentrosaurid",
+    "kde_zil": "Afrika (pred 150 miliónmi rokov)",
+    "info": "Označenie pre rodinu ostnatých dinosaurov, ktoré mali prednú polovicu tela krytú platňami a zadnú polovicu chvosta vyzbrojenú obriemi ihlami.",
+    "vtip": "Aká bola najlepšia obranná veta Kentrosaurida? Ak sa ma dotkneš, garantujem ti, že nasledujúci týždeň stráviš vyťahovaním triesok zo zubov!",
+    "zvuk": "bylinozravec"
+  },
+  "lambeosaurus": {
+    "meno": "Lambeosaurus",
+    "kde_zil": "Severná Amerika (pred 75 miliónmi rokov)",
+    "info": "Obrovský kačací dinosaurus, ktorý mal na hlave dutý bizarne tvarovaný hrebeň pripomínajúci sekeru alebo sekačku na mäso, smerujúcu dopredu.",
+    "vtip": "Prečo nosil Lambeosaurus na hlave sekeru? Aby všetkým drevorubačom v lese ukázal, ako sa správne kosia praveké stromy!",
+    "zvuk": "bylinozravec"
+  },
+  "leaellynasaura": {
+    "meno": "Leaellynasaura",
+    "kde_zil": "Austrália (pred 110 miliónmi rokov)",
+    "info": "Malý dinosaurus, ktorý žil v blízkosti južného pólu, kde bola v zime polárna noc a tma. Mal preto obrovské oči, aby videl v tme, a chvost, ktorý bol trikrát dlhší ako jeho telo.",
+    "vtip": "Na čo slúžil Leaellynasaure taký dlhý chvost? V polárnej zime si ho omotala okolo tela ako teplý huňatý šál!",
+    "zvuk": "bylinozravec"
+  },
+  "leptoceratops": {
+    "meno": "Leptoceratops",
+    "kde_zil": "Severná Amerika (pred 66 miliónmi rokov)",
+    "info": "Malý rohatý dinosaurus, ktorý bol tak trochu rebel – odmietol nosiť rohy a mal len veľmi malý, nenápadný kostený lem na zadnej strane hlavy.",
+    "vtip": "Čo povedal Leptoceratops Triceratopsovi? Rohy sú už stará móda, teraz letí prirodzený vzhľad bez zbytočných ozdôb!",
+    "zvuk": "bylinozravec"
+  },
+  "lesothosaurus": {
+    "meno": "Lesothosaurus",
+    "kde_zil": "Afrika / Lesotho (pred 200 miliónmi rokov)",
+    "info": "Malý, ľahkonohý bylinožravec z úplného začiatku jury. Mal krátku hlavu s veľkými očami a živil sa mäkkými listami pravekých papradí.",
+    "vtip": "Ako trávil Lesothosaurus voľný čas? Behaním po afrických pláňach a trénovaním na olympijský maratón!",
+    "zvuk": "bylinozravec"
+  },
+  "lexovisaurus": {
+    "meno": "Lexovisaurus",
+    "kde_zil": "Európa / Francúzsko (pred 165 miliónmi rokov)",
+    "info": "Európsky ostnatý dinosaurus, ktorý mal okrem platní na chrbte dva obrovské, ostré ostne vyrastajúce priamo z ramien, smerujúce dozadu.",
+    "vtip": "Prečo mal Lexovisaurus ostne na pleciach? Aby mu nikto nemohol nečakane poklepať po ramene a vystrašiť ho!",
+    "zvuk": "bylinozravec"
+  },
+  "liaoningosaurus": {
+    "meno": "Liaoningosaurus",
+    "kde_zil": "Ázia / Čína (pred 122 miliónmi rokov)",
+    "info": "Neskutočný unikát. Drobný pancierový dinosaurus, u ktorého vedci v žalúdku objavili kostry rýb! Je to jediný známy pancierový dinosaurus, ktorý bol mäsožravec/rybožravec.",
+    "vtip": "Čo povie Liaoningosaurus ostatným tankom? Vy si žujte tie vaše suché trávy, ja si dám radšej čerstvé pečené ryby!",
+    "zvuk": "raptor"
+  },
+  "lurdusaurus": {
+    "meno": "Lurdusaurus",
+    "kde_zil": "Afrika / Niger (pred 115 miliónmi rokov)",
+    "info": "Extrémne ťažkopádny a mohutný príbuzný Iguanodona. Vážil cez 5 ton, mal obrovské brucho a krátke silné nohy – vedci predpokladajú, že žil vo vode ako dnešný hroch.",
+    "vtip": "Ako prezývali Lurdusaura v pravekom jazere? Chodiaci sud s vodou, lebo keď skočil do rieky, vytlačil polovicu vody na breh!",
+    "zvuk": "bylinozravec"
+  },
+  "lycorhinus": {
+    "meno": "Lycorhinus",
+    "kde_zil": "Afrika / Južná Afrika (pred 200 miliónmi rokov)",
+    "info": "Malý dinosaurus, ktorého meno znamená 'vlačia tlama'. Mal totiž v prednej časti čeľustí dva nápadné, dlhé tesáky pripomínajúce zuby vlka alebo upíra, hoci jedol rastliny.",
+    "vtip": "Prečo mal rastlinožravý Lycorhinus upírske zuby? Aby mohol na Halloween strašiť všetkých malých dravcov v lese!",
+    "zvuk": "bylinozravec"
+  },
+  "massospondylus": {
+    "meno": "Massospondylus",
+    "kde_zil": "Afrika (pred 200 miliónmi rokov)",
+    "info": "Primitívny dlhokrký dinosaurus z ranej jury. Zaujímavé je, že jeho mláďatá sa rodili so štyrmi rovnako dlhými nohami, ale ako rástli, predné nohy sa im skracovali a dospelí chodili len po dvoch.",
+    "vtip": "Čo povie Massospondylus synovi? Narovnaj sa už konečne a začni chodiť po dvoch ako každý poriadny dospelák!",
+    "zvuk": "bylinozravec"
+  },
+  "megalosaurus": {
+    "meno": "Megalosaurus",
+    "kde_zil": "Európa / Anglicko (pred 166 miliónmi rokov)",
+    "info": "Úplne prvý dinosaurus, ktorého ľudstvo v histórii objavilo a oficiálne opísalo (už v roku 1824). Bol to veľký, silný jurský mäsožravec s ostrými zubami.",
+    "vtip": "Aký je to pocit byť prvým oficiálnym dinosaurom na svete? Megalosaurus hovorí: Je to super, všetci ma museli zdraviť ako staršieho šéfa!",
+    "zvuk": "dravec"
+  },
+  "melanorosaurus": {
+    "meno": "Melanorosaurus",
+    "kde_zil": "Afrika / Južná Afrika (pred 210 miliónmi rokov)",
+    "info": "Veľký, raný predok obrovských dlhokrkých sauropodov. Meral okolo 8 metrov a jeho kosti boli neskutočne masívne a ťažké, aby udržali jeho obrovskú váhu na štyroch nohách.",
+    "vtip": "Čo urobí Melanorosaurus, keď stúpi na váhu? Váha okamžite vyhlási štrajk a ručička preletí cez ciferník!",
+    "zvuk": "bylinozravec"
+  },
+  "metriacanthosaurus": {
+    "meno": "Metriacanthosaurus",
+    "kde_zil": "Európa / Anglicko (pred 160 miliónmi rokov)",
+    "info": "Stredne veľký dravý mäsožravec, ktorý mal na chrbtici predĺžené výbežky stavcov, takže mal pozdĺž chrbta vyvýšený kožený lem alebo nízku plachtu.",
+    "vtip": "Na čo slúžila plachta Metriacanthosaura? Fungovala ako solárny panel, ktorým si ráno dobíjal baterky pred lovom!",
+    "zvuk": "dravec"
+  },
+  "minmi": {
+    "meno": "Minmi",
+    "kde_zil": "Austrália (pred 120 miliónmi rokov)",
+    "info": "Malý pancierový dinosaurus, ktorý drží rekord za najkratšie meno medzi dinosaurami. Mal zvláštne kostené výstuže pozdĺž chrbtice, ktoré chránili jeho nervy.",
+    "vtip": "Prečo mal Minmi také krátke meno? Aby ho mamička stihla zavolať na obed skôr, než mu okolo bežiaci T-Rex zjedol celé menu!",
+    "zvuk": "bylinozravec"
+  },
+  "monolophosaurus": {
+    "meno": "Monolophosaurus",
+    "kde_zil": "Ázia / Čína (pred 165 miliónmi rokov)",
+    "info": "Dravý mäsožravec, ktorý mal pozdĺž celej hlavy – od nosa až po oči – jeden veľký dutý kostený hrebeň. Hrebeň slúžil ako ozdoba na prilákanie partneriek.",
+    "vtip": "Čo hovoril Monolophosaurus o svojom hrebeni? Že je to tá najlepšia praveká koruna, akú si môže kráľ jurského lesa priať!",
+    "zvuk": "dravec"
+  },
+  "mussaurus": {
+    "meno": "Mussaurus",
+    "kde_zil": "Južná Amerika / Argentína (pred 215 miliónmi rokov)",
+    "info": "Jeho meno znamená 'myší jašter'. Paleontológovia totiž najprv našli len kostry čerstvo vyliahnutých mláďat, ktoré boli také malé, že sa zmestili do ľudskej dlane.",
+    "vtip": "Kto sa bojí myšieho jaštera? Nikto, kým nezistí, že z tejto malej palmnej myšky vyrástol v dospelosti trojtonový obor!",
+    "zvuk": "bylinozravec"
+  },
+  "muttaburrasaurus": {
+    "meno": "Muttaburrasaurus",
+    "kde_zil": "Austrália (pred 105 miliónmi rokov)",
+    "info": "Veľký austrálsky bylinožravec s kačacím zobákom, ktorý mal na nose obrovskú nafúknutú dutinu. Tá slúžila ako rezonančná komora na vydávanie hlučného trúbenia.",
+    "vtip": "Čo sa stane, keď Muttaburrasaurus dostane kýchanie? Celá Austrália zažije nečakaný hurikán!",
+    "zvuk": "bylinozravec"
+  },
+  "nanotyrannus": {
+    "meno": "Nanotyrannus",
+    "kde_zil": "Severná Amerika (pred 66 miliónmi rokov)",
+    "info": "Záhadný dinosaurus. Dlho sa viedli spory, či ide o samostatný druh trpasličieho tyranosaura, alebo je to len pubertálne mláďa veľkého T-Rexa. Mal dlhšie nohy a viac zubov.",
+    "vtip": "Čo povie Nanotyrannus T-Rexovi? Ja som síce menší, ale aspoň som rýchlejší a nemusím hodinu čakať, kým sa otočím!",
+    "zvuk": "dravec"
+  },
+  "nannotyrannus": {
+    "meno": "Nanotyrannus (Mláďa T-Rexa)",
+    "kde_zil": "Severná Amerika (pred 66 miliónmi rokov)",
+    "info": "Ďalší vedecký variant interpretácie kostier mladých tyranosaurov. Behal obrovskou rýchlosťou a jeho zuby boli tenšie a ostrejšie na lov rýchlej koristi.",
+    "vtip": "Aká je najobľúbenejšia činnosť mladého T-Rexa? Behanie za jaštericami a hnevánie starých brontosaurov!",
+    "zvuk": "dravec"
   }
 }
